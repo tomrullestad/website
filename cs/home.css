@@ -1,0 +1,313 @@
+#header {
+	height:					60px;
+	font-weight:			italic;
+	font-size:				265%;
+	font-family:			thin Arial;
+	text-align:				center;
+	border-bottom:			solid;
+	border-bottom-style:	double;
+	border-color:			black;
+	margin-top:				45px;
+	padding-right:			50px;
+
+}
+
+span.left img {
+	width:					40px;				
+	height:					40px;
+	float:					left;
+}
+
+#social {
+	float:					right;
+}
+
+ul#soc li {
+	display:				block;
+	width:					50px;
+	float:					left;
+}
+
+ul#soc li img {
+	padding:				7px;
+	width:					30px;
+	height:					30px;
+}
+
+#navbar {
+	width:					95%;
+	font-size:				110%;
+}
+
+ul#nav li {
+	display:				inline;
+	float:					left;
+	margin:					2px;
+}
+
+ul#nav li a {
+	width:					5px;
+	padding:				20px;
+	text-decoration:		none;
+}
+
+a:link { 
+	color: 					black; 
+	text-decoration: 		none; 
+	font-family: 			Georgia;
+	font-size:				100%;
+}
+
+a:visited { color: black; }
+
+a:hover { color:	grey; }
+
+
+ul#cart li {
+	display:				inline;
+	float:					right;
+}
+
+#main {
+	margin-top:				60px;
+	margin-bottom:			55px;
+	font-size:				150%;
+	text-align:				center;
+	border-top:				solid;
+	border-top-style:		double;
+	border-color:			black;
+
+}
+
+#main img {
+	margin-top:				50px;
+}
+
+#divider {
+	border-top:				2px solid grey;
+	margin-bottom:			20px;
+	width:					100%;
+}
+
+#footer {
+	width: 					100%;
+	text-align:				center;
+	margin-bottom:			15px;
+}
+
+.copyright {
+	color:					black;
+	font-family:			thin Verdana;
+	text-align:				left;
+	font-size:				100%;
+}
+
+.element {
+	display:				inline-block;
+	margin-right:			30px;
+	margin-bottom:			35px;
+}​
+
+
+/* The following CSS is for the SlideJS that was implemented on the homepage */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #232525;
+
+}
+
+#slides {
+  display: none;
+}
+
+#slides .slidesjs-navigation {
+  margin-top:10px;
+
+}
+
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(../slides/examples/playing/img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../slides/examples/playing/img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+
+#product_table
+{
+	width:	80%;
+	margin:	0px 20px 0px 80px;
+	margin-top:	40px;
+	margin-left:	130px;
+}
+
+td img {
+	width:	275px;
+	height:	280px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom:	45px;
+}
+
+#cart_table {
+	width:	90%;
+	margin:	0px 0px 0px 40px;
+}
+
+table,th,td {
+	border:	1px solid black;
+
+}
+
+#cart_table {
+	text-align:	center;
+	margin-top:	20px;
+}
+
+#container tr {
+	text-align:	center;
+}
+
+td {
+	padding: 10px 10px 10px 10px;
+}
+
+th {
+	padding: 20px;
+	margin:	20px;
+}
+
+#shopping_img {
+	width:	250px;
+	height:	255px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom:	45px;
+}
+
+#cart_buttons {
+	text-align:	center;
+	padding-bottom:	20px;
+	padding-right:	15px;
+	padding-top:	20px;
+	
+}
+
+#cont_shop {
+	padding-left:	45px;
+}
+
+
+#joinform {
+
+	border:				5px double grey;
+	margin-top:			20px;
+	background-color:	white;
+	font-size:			80%;
+	width: 				30%;
+    padding-left: 		30px;
+	text-align:			left;
+	margin:				auto;
+}
+
+.submit { 
+	margin-top:			50px;
+	text-align:			center;
+
+}
+
+.submit input {
+	font-size:			80%;
+	background-color:	white;
+	color:				black;
+	width:				20%;
+	margin-right:		10px;			
+
+}
+
+.reset input { 
+	background-color:	white;
+}
+
+label {
+	width:				11em;
+	float:				left;
+	text-align:			left;
+}
+
+
